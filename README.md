@@ -2,13 +2,16 @@
 
 # three-tier-architecture-aws
 
+
 Arquitetura multicamadas na AWS usando Terraform
 
 Implante uma arquitetura multicamadas escalável e resiliente na AWS usando Terraform.
 
+
 📌O que é Terraform?
 
 Terraform é uma ferramenta de infraestrutura como código que permite definir recursos de nuvem e locais em arquivos de configuração legíveis que você pode versionar, reutilizar e compartilhar. Você pode então usar um fluxo de trabalho consistente para provisionar e gerenciar toda a sua infraestrutura durante todo o seu ciclo de vida.
+
 
 🚀 Visão geral da arquitetura multicamadas
 
@@ -18,7 +21,6 @@ Camada Web: Esta camada lida com solicitações recebidas de usuários e pode se
 Camada de aplicativos: os servidores de aplicativos executam nossa lógica de negócios e interagem com a camada de banco de dados. Eles também podem ser dimensionados horizontalmente para atender à demanda.
 Camada do banco de dados: O banco de dados armazena e gerencia os dados do nosso aplicativo. Nesta arquitetura, usamos o Amazon RDS para um serviço de banco de dados gerenciado.
 
-📌 Diagrama de Arquitetura
 
 🚦 Primeiros passos
 
@@ -30,6 +32,7 @@ Terraform instalado.
 
 Credenciais AWS IAM configuradas.
 
+
 ✨ Recursos
 
 Alta disponibilidade: A arquitetura é projetada para tolerância a falhas e redundância.
@@ -37,6 +40,7 @@ Alta disponibilidade: A arquitetura é projetada para tolerância a falhas e red
 Escalabilidade: dimensione facilmente as camadas da Web e de aplicativos para lidar com diversas cargas de trabalho.
 
 Segurança: grupos de segurança e ACLs de rede são configurados para garantir um ambiente seguro.
+
 
 🔧 Configuração do Terraform
 
@@ -50,7 +54,7 @@ Grupos de escalonamento automático
 Instâncias de banco de dados RDS
 
 
-🚀 Diagrama
+📌 Diagrama de Arquitetura
 
 ![image](https://github.com/rodrigocflorindo/MuitTier-AWS/assets/24444808/e3dfe6a8-69df-4cd9-84df-9b81845a2c21)
 
