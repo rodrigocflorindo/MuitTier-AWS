@@ -2,8 +2,6 @@
 
 # MuitTier-AWS
 
-
-
 Arquitetura multicamadas na AWS usando Terraform
 
 
@@ -49,7 +47,9 @@ O que são provedores?
 
 Um provedor no Terraform é um plugin que permite a interação com uma API. Isso inclui provedores de nuvem e provedores de software como serviço. Os provedores são especificados no código de configuração do Terraform. Eles informam ao Terraform com quais serviços ele precisa interagir.
 
-Comece Criando um arquivo provider.tf 
+Diagrama
+
+![image](https://github.com/rodrigocflorindo/MuitTier-AWS/assets/24444808/e3dfe6a8-69df-4cd9-84df-9b81845a2c21)
 
 
 
