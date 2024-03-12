@@ -49,11 +49,7 @@ O que são provedores?
 
 Um provedor no Terraform é um plugin que permite a interação com uma API. Isso inclui provedores de nuvem e provedores de software como serviço. Os provedores são especificados no código de configuração do Terraform. Eles informam ao Terraform com quais serviços ele precisa interagir.
 
-Crie um arquivo provider.tf arquivo usando o código abaixo
-
-provider "aws" { 
-  region = var.region-name 
-}
+Comece Criando um arquivo provider.tf 
 
 
 
