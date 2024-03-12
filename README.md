@@ -54,7 +54,7 @@ Grupos de escalonamento automático
 Instâncias de banco de dados RDS
 
 
-📌 Diagrama de Arquitetura
+📌 *Diagrama de Arquitetura*
 
 ![image](https://github.com/rodrigocflorindo/MuitTier-AWS/assets/24444808/e3dfe6a8-69df-4cd9-84df-9b81845a2c21)
 
